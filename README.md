@@ -18,3 +18,9 @@ npm install drizzle --save
 
 truffle unbox pet-shop-tutorial
 ```
+
+# 1. Truffle
+
+- Create solidity files under contract directory
+- Truffle compile
+- Truffle migrate
