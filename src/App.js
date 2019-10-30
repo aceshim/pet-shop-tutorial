@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-
-import { Drizzle } from 'drizzle'
 import { DrizzleProvider } from 'drizzle-react';
 import options from "./drizzleOptions";
 import LoadingContainer from "./LoadingContainer";

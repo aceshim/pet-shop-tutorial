@@ -5,6 +5,7 @@ import PropTypes from 'prop-types'
 class Pet extends Component {
     constructor(props, context) {
         super(props);
+        console.log(props);
         this.state = {
             adopted: false
         }
