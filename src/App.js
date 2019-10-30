@@ -4,17 +4,30 @@ import { DrizzleProvider } from 'drizzle-react';
 import options from "./drizzleOptions";
 import LoadingContainer from "./LoadingContainer";
 
-import Account from "./Account";
+import Header from "./Header";
+import Pet from "./Pet";
 
 class App extends Component {
   render() {
+    const petInfo = require('./pets.json');
     return (
       <DrizzleProvider options={options}>
         <LoadingContainer>
-          <Account/>
+          <div className="container">
+            <Header />
+            <div id="petsRow" className="row">
+              {petInfo.map((pet, i) => {
+                return (
+                <Pet
+                  key={pet.id}
+                  id={pet.id}
+                />)
+              })}
+            </div>
+          </div>
         </LoadingContainer>
       </DrizzleProvider>
-      )
+    )
   }
 }
 
