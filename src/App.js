@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import { Drizzle } from 'drizzle'
 import { DrizzleProvider } from 'drizzle-react';
 import options from "./drizzleOptions";
 import LoadingContainer from "./LoadingContainer";
@@ -20,7 +21,7 @@ class App extends Component {
                 return (
                 <Pet
                   key={pet.id}
-                  id={pet.id}
+                  pet={pet}
                 />)
               })}
             </div>
