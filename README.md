@@ -10,6 +10,7 @@ Prerequisite
 - Git
 - Python
 - Node.js
+- (Optional) Visual Code with Solidity / Material Icon Theme 
 
 ```bash
 npm install truffle -g
