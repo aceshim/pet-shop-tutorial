@@ -24,3 +24,10 @@ truffle unbox pet-shop-tutorial
 - Create solidity files under contract directory
 - Truffle compile
 - Truffle migrate
+
+# 2. Web3
+
+- Use jQuery and web3 API
+- Install Metamask
+- Ganache
+- Check Metamask transaction
