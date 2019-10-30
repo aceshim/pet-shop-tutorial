@@ -1,5 +1,7 @@
 # pet-shop-tutorial
 
+https://www.trufflesuite.com/tutorials/pet-shop
+
 # 0. Setup
 
 Visit https://www.trufflesuite.com/ for downloading all three frameworks. (Truffle, Ganache, Drizzle)
