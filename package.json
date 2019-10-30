@@ -13,6 +13,8 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.3.0",
+    "axios": ">=0.18.1",
+    "set-value": ">=2.0.1"
   }
 }
