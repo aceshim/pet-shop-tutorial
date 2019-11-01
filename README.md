@@ -19,6 +19,9 @@ npm install drizzle --save
 truffle unbox pet-shop-tutorial
 ```
 
+<b>For Ubuntu</b>
+https://medium.com/@techgeek628/how-to-install-and-execute-truffle-on-an-ubuntu-16-04-7ebb3444707e
+
 ### 1. Truffle
 
 - Create solidity files under contract directory
