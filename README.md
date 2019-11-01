@@ -2,6 +2,27 @@
 
 https://www.trufflesuite.com/tutorials/pet-shop
 
+### Quick Start
+1. Install packages
+```bash
+npm install truffle -g
+npm install
+```
+2. Open Ganache (or ganache-cli)
+3. Deploy contracts
+```bash
+truffle compile
+truffle migrate
+```
+4. Run React
+```bash
+npm start
+```
+5. Metamask
+Make sure your Ganache account is linked to metamask
+
+6. Adopt your favorite pet!
+
 ### 0. Setup
 
 Visit https://www.trufflesuite.com/ for downloading all three frameworks. (Truffle, Ganache, Drizzle)
@@ -11,6 +32,7 @@ Prerequisite
 - Python
 - Node.js
 - (Optional) Visual Code with Solidity / Material Icon Theme 
+- Metamask
 
 ```bash
 npm install truffle -g
