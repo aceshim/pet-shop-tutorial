@@ -108,3 +108,8 @@ export default options;
 <b>Make Header</b>
 
 <b>Make Pet Template</b>
+
+### Troubleshoot
+
+<b>Windows</b>
+You might get firewall blocking the port. Please make a new inbound rule to open port 7545.
