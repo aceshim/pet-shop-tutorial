@@ -18,8 +18,15 @@ npm install drizzle --save
 
 truffle unbox pet-shop-tutorial
 ```
+<b>For Windows</b>
+- Python 2.7
+- Node.js 10.x
+https://spin.atomicobject.com/2019/03/27/node-gyp-windows/
 
 <b>For Ubuntu</b>
+- Donwload Ubuntu
+http://mirror.kakao.com/ubuntu-releases/xenial/
+https://www.codeooze.com/blockchain/ethereum-dev-environment-2019/
 https://medium.com/@techgeek628/how-to-install-and-execute-truffle-on-an-ubuntu-16-04-7ebb3444707e
 
 ### 1. Truffle
