@@ -41,8 +41,8 @@ class Pet extends Component {
                             <strong>Breed</strong>: <span className="pet-breed">{pet.breed}</span><br />
                             <strong>Age</strong>: <span className="pet-age">{pet.age}</span><br />
                             <strong>Location</strong>: <span className="pet-location">{pet.location}</span><br />
-                            <strong>Adopter</strong>: <span className="pet-location">{
-                                data !== '0x0000000000000000000000000000000000000000' ? data: null
+                            <strong>Adopter</strong>: <span className="pet-location"><br />{
+                                data !== '0x0000000000000000000000000000000000000000' ? data: "N/A"
                                 }</span><br /><br />
                             {data !== '0x0000000000000000000000000000000000000000' ?
                                 <button className="btn btn-default btn-adopt" type="button" data-id={pet.id} disabled>Success</button> :

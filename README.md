@@ -45,6 +45,17 @@ truffle unbox pet-shop-tutorial
 - Node.js 10.x
 https://spin.atomicobject.com/2019/03/27/node-gyp-windows/
 
+--Run terminal by Admin--
+1. Download node-v10.17.0-x64.msi or node-v10.17.0-x86.msi at https://nodejs.org/dist/latest-v10.x/
+2. Download node.js v10
+3. Download Git at https://git-scm.com/
+4. Run "npm install -no-optional" on terminal
+5. Run "npm install --global --production windows-build-tools --vs2015" on terminal
+6. Download Visual Studio 2015 build tools at https://www.microsoft.com/en-us/download/details.aspx?id=48159
+7. Run "npm config set msvs_version 2015 –global" on terminal
+8. Download python 2.7 at https://www.python.org/download/releases/2.7/
+9. Run "npm config set python python2.7" on terminal
+
 <b>For Ubuntu</b>
 - Donwload Ubuntu
 http://mirror.kakao.com/ubuntu-releases/xenial/
